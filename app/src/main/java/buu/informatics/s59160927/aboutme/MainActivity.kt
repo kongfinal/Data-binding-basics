@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         editText.requestFocus()
 
-        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.showSoftInput(editText, 0)
+        val immk = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        immk.showSoftInput(editText, 0)
     }
 }
